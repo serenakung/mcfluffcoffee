@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div id="header">
+        <h1>McFluffs Coffee</h1>
+    </div>
+
+    <div class="container">
+    <img src="images/mcfluffs logo.png">
+    
+    <div id="coffee">
+    <div id="latteBox">
+    <h2 id="latte-el">0</h2>
+    <h2>Lattes Sold Today</h2>
+    <button id="lattes-btn" onclick="latteinc()">Latte</button>
+    </div>
+
+    <div id="capBox">
+    <h2 id="cap-el">0</h2>
+    <h2>Capuccinos Sold Today</h2>
+    <button id="capuccino-btn" onclick="capinc()">Capuccino</button>
+    </div>
+    </div>
+</div>
+  
+    <div id="saveBox">
+    <button id="save-btn" onclick="save()">End business for today</button>
+    <p id="save-latte"> Previous lattes sold: </p>
+    <p id="save-cap"> Previous capuccinos sold: </p>
+    </div>
+   
+    <script src="index.js"></script>
+
+</body>
+</html>
